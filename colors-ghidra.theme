@@ -1,0 +1,69 @@
+name = pywal
+lookAndFeel = Flat Dark
+useDarkDefaults = true
+color.cursor.focused = color.fg
+
+color.fg.decompiler.comment = color.pywal.color6
+color.fg.decompiler.constant = color.pywal.color5
+color.fg.decompiler.function.name = color.pywal.color6
+color.fg.decompiler.keyword = color.pywal.color2 
+color.fg.decompiler.type = color.pywal.color1
+color.fg.decompiler.variable = color.pywal.color3
+color.fg.decompiler.parameter = color.pywal.color4
+color.fg.decompiler.global = color.pywal.color3
+
+color.fg.listing.bytes = color.pywal.color4
+color.fg.listing.comment.auto = color.pywal.color1
+color.fg.listing.comment.eol = color.pywal.color1
+color.fg.listing.comment.plate = color.pywal.color1
+color.fg.listing.comment.post = color.pywal.color1
+color.fg.listing.comment.pre = color.pywal.color1
+color.fg.listing.comment.ref.repeatable = color.pywal.color1
+color.fg.listing.comment.repeatable = color.pywal.color1
+color.fg.listing.constant = color.pywal.color5
+color.fg.listing.ext.entrypoint = color.fg
+color.fg.listing.ext.ref.resolved = color.pywal.color5
+color.fg.listing.function.name = color.pywal.color6
+color.fg.listing.function.param.dynamic = color.pywal.color5
+color.fg.listing.label.local = color.pywal.color2
+color.fg.listing.label.primary = color.pywal.color1
+color.fg.listing.mnemonic = color.pywal.color2
+color.fg.listing.mnemonic.override = color.fg
+color.fg.listing.underline = color.pywal.color1
+color.fg.listing.xref = color.pywal.color2
+color.fg.listing.xref.read = color.pywal.color1
+color.fg.listing.ext.ref.unresolved = color.pywal.color4
+color.fg.listing.label.non.primary = color.pywal.color8
+color.fg.listing.register = color.pywal.color3
+color.fg.listing.function.variable = color.pywal.color4
+color.fg.listing.block.start = color.pywal.color3
+color.fg.listing.function.tag = color.pywal.color3
+color.fg.listing.tabs.text.selected = color.pywal.color8
+
+color.bg.selection = color.palette.aliceblue
+color.bg.undefined = color.palette.aliceblue
+color.bg.header.active = color.pywal.color5
+color.bg.header.inactive = color.palette.aliceblue
+
+color.palette.aliceblue = color.pywal.color0
+color.palette.highlight.transparent.yellow = color.pywal.color8
+
+color.bg.filterfield = color.palette.aliceblue
+color.fg.filterfield = color.pywal.color8
+
+color.pywal.color0 = {color0}
+color.pywal.color8 = {color8}
+
+color.pywal.color1 = {color1}
+color.pywal.color2 = {color2}
+color.pywal.color3 = {color3}
+color.pywal.color4 = {color4}
+color.pywal.color5 = {color5}
+color.pywal.color6 = {color6}
+color.pywal.color7 = {color7}
+
+
+[color]system.color.bg.view = color.pywal.color0
+[color]system.color.fg.view = color.pywal.color8
+
+font.monospaced = Monospaced-PLAIN-12
